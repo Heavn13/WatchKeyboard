@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--顶部导航栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/blue"
+        android:weightSum="10">
+        <TextView
+            android:text="帮助"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="8"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_margin="20dp"
+        android:text="  1.点击文本框，会弹出虚拟键盘。\n\n
+
+2.虚拟键盘的分为三种样式：英文界面，数字符号界面和方向界面。\n\n
+
+3.英文界面：根据按钮上的字符的方向，点击滑动即可输入相应的字符。\n\n
+
+4.输入大写英文：长按小写英文的按钮约0.5s，等待按钮背景变色之后再滑动，即可输入相应的大写英文字符。\n\n
+
+5.数字符号界面：点击键盘左下角按钮，可切换至数字符号的虚拟键盘。\n\n
+
+6.方向界面：点击键盘左上角，可切换至移动文本框光标的虚拟接盘。\n\n
+
+7.其他功能键：\n
+    \t中上：收起虚拟键盘。\n
+    \t右上：单击回退一个字符，长按清空文本。\n
+    \t中下：空格键。\n
+    \t右下：Enter换行键。\n
+"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

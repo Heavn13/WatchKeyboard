@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:clickable="false"
+    android:orientation="vertical"
+
+    tools:context="com.example.heavn.watchkeyboard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="end">
+        <ImageView
+            android:id="@+id/help"
+            android:background="@drawable/help"
+            android:layout_marginRight="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="48.5mm"
+            android:layout_height="51mm"
+            android:background="@drawable/background"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <LinearLayout
+                android:id="@+id/watch"
+                android:layout_width="35.9mm"
+                android:layout_height="42mm"
+
+                android:background="@drawable/shape_corner"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/text"
+                    android:layout_width="match_parent"
+                    android:layout_height="9.7mm"
+                    android:background="@null"
+                    android:gravity="start"
+                    android:paddingStart="2.2mm"
+                    android:paddingEnd="2.2mm"
+                    android:paddingTop="1.2mm" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
