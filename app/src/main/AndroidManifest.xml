@@ -20,5 +20,4 @@
         </activity>
         <activity android:name=".Help"/>
     </application>
-
 </manifest>
